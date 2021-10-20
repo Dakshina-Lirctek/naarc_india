@@ -1,0 +1,16 @@
+.grey-bg {  
+    background-color: rgb(167, 162, 162);
+    background-size: 50% auto;
+    margin-bottom: 8.5%;
+    margin-top: 8%;
+    min-height: 500px;
+    font-family: 'Work Sans', sans-serif;
+}
+.card-content:hover{
+    background-color:rgb(17, 61, 4);
+    color: white;
+}
+
+.card-content{
+    background-color: blanchedalmond;
+}

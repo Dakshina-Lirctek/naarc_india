@@ -1,0 +1,81 @@
+.header {
+  overflow: hidden;
+  background: #0b721a;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #C4E0E5, #2c7c25);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to left, #C4E0E5, #058b09); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+  padding: 20px 10px;
+}
+
+#burger{
+  padding-top: px;
+  color: #0f2b0d;
+}
+
+#join{
+  margin-right: 10px;
+}
+
+.header a {
+  float: left;
+  color: #0f2b0d;
+  text-align: center;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 18px;
+  line-height: 25px;
+  border-radius: 4px;
+}
+.logo{
+  color: #fff;
+}
+#logo{
+  font-size:large;
+}
+
+#logo-image{
+  width: 46px;
+  height: 46px;
+  border-radius: 50%;
+  overflow: hidden;
+  margin-top: -6px;
+}
+
+.header a.logo {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+
+.header a:hover {
+  background-color: white;
+  color: black;
+}
+
+
+.header a.active {
+  background-color: dodgerblue;
+  color: white;
+}
+
+
+.header-right {
+  float: right;
+}
+
+@media screen and (max-width: 500px) {
+  .header a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+  .header-right {
+    float: none;
+  }
+}
+
+#logo_image{
+  width: 38px;
+  margin-left: 15px;
+}
+
