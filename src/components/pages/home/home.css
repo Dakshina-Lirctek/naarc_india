@@ -1,5 +1,5 @@
-body {
-  background-color: #fff;
+.home {
+  background: linear-gradient(90deg, #2e3440 20%, #00FFFF 50% );
   font-family: 'Work Sans', sans-serif;
   
 }
@@ -9,10 +9,11 @@ body {
   
 }
 
+
 .wrapper {
-  margin: 10vh;
-  margin-top: 8%;
-  margin-bottom: 8%;
+  margin: 5vh;
+ padding-bottom: 90px;
+ padding-top: 90px;
 }
 
 .card {

@@ -4,7 +4,7 @@ export default class Statics extends Component {
   render() {
     return (
       <div>
-        <div class="grey-bg container-fluid">
+        <div style={{ background: "linear-gradient(90deg, #2e3440 20%, #00FFFF 50% )"}} class="grey-bg container-fluid">
           <section id="minimal-statistics">
             <div class="row">
               <div class="col-12 mt-3 mb-1">
@@ -13,7 +13,7 @@ export default class Statics extends Component {
               </div>
             </div>
             <div class="row">
-              <div class="col-xl-6 col-sm-2 col-12" style={{paddingBottom:"40px"}}>
+              <div class="col-xl-6 col-sm-2 col-12" style={{paddingBottom:"40px",borderRadius:"20px"}}>
                 <div class="">
                   <div class="card-content">
                     <div class="card-body">

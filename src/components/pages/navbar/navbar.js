@@ -1,38 +1,99 @@
-import React, { Component } from 'react';
+import React, { useState } from "react";
+import { NavLink , BrowserRouter as Router } from "react-router-dom";
 import "./navbar.css";
-import "./naarclogo.png";
-import {Link, BrowserRouter as Router} from 'react-router-dom';
-import NAARC_Logo from "../../images/NAARC Logo.jpg"
+import NAARC_LOGO from "../../images/NAARC_Logo.jpg"
 
-export default class Navbar extends Component {
-  state = { clicked : false};
+function NavBar() {
+  const [click, setClick] = useState(false);
 
-handleClick = () => {
-    this.setState ({ clicked: ! this.state.clicked})
-}
+  const handleClick = () => setClick(!click);
+  return (
+    <>
+      <nav className="navbar">
+        <div className="nav-container">
+          <Router>
+          <NavLink exact to="/" className="nav-logo">
+          
+            NAARC
+            <img style={{width:"37px", marginLeft:"20px"}} src={NAARC_LOGO} alt="logo"/>
+          </NavLink>
 
-    render() {
-        return (
-          <div class="header">
-            <Router>
-              <img id="logo_image" src={NAARC_Logo} alt="logo"></img>
-            <Link class="navbar-brand" href="/">
-            </Link>
-            <Link href="#default" class="logo" style={{backgroundColor:"white"}}>NAARC</Link>
-          <div class="header-right">
-            <Link class="" href="#home" ><b>Home</b></Link>
-            <Link to="/About" href="#about"><b>About</b></Link>
-            <Link href="#contact"><b>Contact</b></Link>
-            <Link href="#trustees"><b>Trustees</b></Link>
-            <Link href="#gallery"><b>Gallery</b></Link>
-            <Link href="#donate"><b>DonateUs</b></Link>
-            <Link id="join" href="#join"><b>JoinUs</b></Link>
-          <a><i  id="burger" onClick = {this.handleClick} className = {this.state.clicked ? 'fas fa-times' : 'fas fa-bars' }></i></a>
-         </div>  
-         </Router>
-         <br></br>
+          <ul className={click ? "nav-menu active" : "nav-menu"}>
+            <li className="nav-item">
+              <NavLink
+                exact
+                to="/"
+                activeClassName="active"
+                className="nav-links"
+                onClick={handleClick}
+              >
+                Home
+              </NavLink>
+            </li>
+            <li className="nav-item">
+              <NavLink
+                exact
+                to="/about"
+                activeClassName="active"
+                className="nav-links"
+                onClick={handleClick}
+              >
+                About
+              </NavLink>
+            </li>
+            <li className="nav-item">
+              <NavLink
+                exact
+                to="/gallery"
+                activeClassName="active"
+                className="nav-links"
+                onClick={handleClick}
+              >
+                Gallery
+              </NavLink>
+            </li>
+            <li className="nav-item">
+              <NavLink
+                exact
+                to="/donate"
+                activeClassName="active"
+                className="nav-links"
+                onClick={handleClick}
+              >
+                DonateUs
+              </NavLink>
+            </li>
+            <li className="nav-item">
+              <NavLink
+                exact
+                to="/join"
+                activeClassName="active"
+                className="nav-links"
+                onClick={handleClick}
+              >
+                JoinUs
+              </NavLink>
+            </li>
+            <li className="nav-item">
+              <NavLink
+                exact
+                to="/contact"
+                activeClassName="active"
+                className="nav-links"
+                onClick={handleClick}
+              >
+                Contact Us
+              </NavLink>
+            </li>
+          </ul>
+          </Router>
+          <div className="nav-icon" onClick={handleClick}>
+            <i className={click ? "fas fa-times" : "fas fa-bars"}></i>
+          </div>
         </div>
-        );
-    }
+      </nav>
+    </>
+  );
 }
 
+export default NavBar;

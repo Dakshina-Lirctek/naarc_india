@@ -1,14 +1,16 @@
 import React, { Component } from 'react';
-import Navbar from './components/pages/navbar/navbar';
+import NavBar from './components/pages/navbar/navbar';
 import Home from './components/pages/home/Home';
 import Statics from "./components/pages/Statics/Statics";
+import Footer from './components/pages/Footer/Footer';
 
 export default class App extends Component {
   render() {
     return (<div>
-      <Navbar/>
+      <NavBar/>
       <Home/>
       <Statics/>
+      <Footer/>
     </div>)
   }
 }
