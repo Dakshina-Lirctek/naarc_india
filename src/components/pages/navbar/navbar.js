@@ -12,9 +12,12 @@ function NavBar() {
       <nav className="navbar">
         <div className="nav-container">
           <Router>
-          <NavLink exact to="/" className="nav-logo">
-            NAARC
-            <img style={{width:"37px", marginLeft:"20px"}} src={NAARC_LOGO} alt="logo"/>
+          <NavLink style={{letterSpacing:"0.9px",wordSpacing:"",fontWeight:"bold",fontSize:"1vw"}} exact to="/" className="nav-logo">
+            <img style={{width:"40px", marginLeft:"20px",marginRight:"10px"}} src={NAARC_LOGO} alt="logo"/>
+            <span style={{fontSize:"23px"}}>N</span>ATURE<span style={{fontSize:"23px"}}>A</span>UGEMENTATION 
+            <span style={{fontSize:"23px"}}>A</span>ND 
+            <span style={{fontSize:"23px"}}>R</span>EHABILITATION OF
+             <span style={{fontSize:"23px"}}>C</span>IVILIZATION 
           </NavLink>
 
           <ul className={click ? "nav-menu active" : "nav-menu"}>
