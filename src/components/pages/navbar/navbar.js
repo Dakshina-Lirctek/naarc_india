@@ -9,19 +9,17 @@ function NavBar() {
   const handleClick = () => setClick(!click);
   return (
     <>
-      <nav className="navbar">
+      <nav style={{minHeight:"90px"}} className="navbar">
         <div className="nav-container">
+        <img style={{maxHeight:"58px", marginLeft:"15px",marginRight:"2.4rem"}} src={NAARC_LOGO} alt="logo"/>
           <Router>
-          <NavLink style={{letterSpacing:"0.9px",wordSpacing:"",fontWeight:"bold",fontSize:"1vw"}} exact to="/" className="nav-logo">
-            <img style={{width:"40px", marginLeft:"20px",marginRight:"10px"}} src={NAARC_LOGO} alt="logo"/>
-            <span style={{fontSize:"23px"}}>N</span>ATURE<span style={{fontSize:"23px"}}>A</span>UGEMENTATION 
-            <span style={{fontSize:"23px"}}>A</span>ND 
-            <span style={{fontSize:"23px"}}>R</span>EHABILITATION OF
-             <span style={{fontSize:"23px"}}>C</span>IVILIZATION 
+            <div style={{display:"flex",textAlign:"center"}}>
+          <NavLink style={{letterSpacing:"8px",fontWeight:"bold",fontSize:"3vw",marginRight:"20rem"}} exact to="/" className="nav-logo">
+          <abbr className="abbr" style={{textDecoration:"none",borderRadius:"10px",padding:"5px",border:"2px solid black"}} title="Nature Augementation And Rehabilitation of Civilization">NAARC</abbr> 
           </NavLink>
-
-          <ul className={click ? "nav-menu active" : "nav-menu"}>
-            <li className="nav-item">
+            </div>
+          <ul style={{fontWeight:"bolder"}} className={click ? "nav-menu active" : "nav-menu"}>
+            <li  className="nav-item">
               <NavLink
                 exact
                 to="/"

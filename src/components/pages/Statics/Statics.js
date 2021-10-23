@@ -4,7 +4,7 @@ export default class Statics extends Component {
   render() {
     return (
       <div>
-        <div style={{ background: "linear-gradient(90deg, #2e3440 20%, #00FFFF 50% )"}} class="grey-bg container-fluid">
+        <div class="grey-bg container-fluid">
           <section id="minimal-statistics">
             <div class="row">
               <div class="col-12 mt-3 mb-1">
