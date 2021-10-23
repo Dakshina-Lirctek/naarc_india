@@ -3,7 +3,7 @@
   
 }
 .each-slide{
-  min-height: 537px;
+  min-height: 540px;
 }
 @media (min-width : 370px) {
   .img-fluid{width: 50% ;}

@@ -26,11 +26,10 @@ export default class Home extends Component {
                     }}
                   >
                     <div class="card-img-overlay d-flex flex-column">
-                      <div class="card-body" style={{maxWidth:"300px"}}>
+                      <div class="card-body" style={{height:"300px"}}>
                         <h1 class="card-title" style={{fontWeight:"bold" , fontSize:"15px"}}>Plant</h1>
-                        <p style={{fontSize:"2.5vh", wordSpacing:"1px"}} >
-                        <q>Earth is our mother<br></br> What happens to that mother will happen to us, her children, tomorrow. 
-                         Because the earth does not belong to man, man belongs to the earth </q>
+                        <p  >
+                        <q>Earth is our mother, What happens to that mother will happen to us, her children, tomorrow. Because the earth does not belong to man, man belongs to the earth </q>
                         </p>
                         <cite>- Nammalvar</cite>
                       </div>

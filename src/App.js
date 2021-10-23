@@ -3,6 +3,7 @@ import NavBar from './components/pages/navbar/navbar';
 import Home from './components/pages/home/Home';
 import Statics from "./components/pages/Statics/Statics";
 import Footer from './components/pages/Footer/Footer';
+import Update from './components/pages/Updates/Update';
 
 export default class App extends Component {
   render() {
@@ -10,6 +11,7 @@ export default class App extends Component {
       <NavBar/>
       <Home/>
       <Statics/>
+      <Update/>
       <Footer/>
     </div>)
   }

@@ -13,7 +13,6 @@ function NavBar() {
         <div className="nav-container">
           <Router>
           <NavLink exact to="/" className="nav-logo">
-          
             NAARC
             <img style={{width:"37px", marginLeft:"20px"}} src={NAARC_LOGO} alt="logo"/>
           </NavLink>
@@ -82,7 +81,7 @@ function NavBar() {
                 className="nav-links"
                 onClick={handleClick}
               >
-                Contact Us
+                ContactUs
               </NavLink>
             </li>
           </ul>
