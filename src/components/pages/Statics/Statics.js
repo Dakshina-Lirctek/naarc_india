@@ -8,8 +8,8 @@ export default class Statics extends Component {
           <section id="minimal-statistics">
             <div class="row">
               <div class="col-12 mt-3 mb-1">
-                <h2 class="text-uppercase" style={{color:"whitesmoke" , fontWeight:"bold"}}>Minimal Statistics Cards</h2>
-                <p style={{color:"whitesmoke"}}>Statistics on minimal cards.</p>
+                <h2 class="text-uppercase" style={{ fontWeight:"bold"}}>Minimal Statistics Cards</h2>
+                <p style={{}}>Statistics on minimal cards.</p>
               </div>
             </div>
             <div class="row">

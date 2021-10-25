@@ -7,10 +7,10 @@
     font-family: 'Work Sans', sans-serif;
 }
 .card-content:hover{
-    background-color:rgb(7, 4, 39);
+    background-color:rgb(21, 151, 43);
     color: white;
 }
 
 .card-content{
-    background-color: blanchedalmond;
+    background-color: rgb(27, 82, 6);
 }

@@ -81,5 +81,5 @@
 .card .card-img-overlay {
   transition: all 800ms cubic-bezier(0.19, 1, 0.22, 1);
   background: #0a9b16;
-  background: linear-gradient(0deg, rgba(35, 79, 109, 0.3785889356) 0%, #0b4902 100%);
+  background: linear-gradient(0deg, rgba(35, 79, 109, 0.3785889356) 0%, #0b4202 100%);
 }

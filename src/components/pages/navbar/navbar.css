@@ -30,6 +30,7 @@
 .abbr:hover{
     background-color: black;
     color: white;
+    font-size: 38px;
 }
 
 .nav-logo {
