@@ -6,7 +6,7 @@
 }
 
 .navbar {
-  background: #ffffff;
+  background: white;
   height: 80px;
   display: flex;
   justify-content: center;
@@ -57,7 +57,7 @@
   padding: 0.5rem 1rem;
   height: 100%;
   font-size: 20px;
-  font-weight: 500;
+  
   border-bottom: 3px solid transparent;
 }
 .fa-code {
@@ -83,10 +83,10 @@
 }
 
 .nav-item .active {
-  color: rgb(4, 73, 2);
+  color: #10db02;
   font-weight: bolder;
   border-radius: 1px;
-  border-bottom: 3px solid rgb(4, 73, 2);
+  border-bottom: 3px solid #10db02;
 }
 .nav-item{
   font-weight: bold;

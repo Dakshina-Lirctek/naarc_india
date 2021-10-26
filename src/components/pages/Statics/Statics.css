@@ -22,15 +22,19 @@ body{
 .bg-c-pink {
     background: linear-gradient(45deg,#FF5370,#ff869a);
 }
-
-.card .card-block {
-    padding: 25px;
-}
-.col-md-4{}
-.order-card i {
-    font-size: 26px;
+.card-block:hover{
+    background-color: black;
+    color: white;   
 }
 
+.title h1{
+    padding-top: 25px;
+    color: black;
+    font-weight: bolder;
+}
+.card-title{
+    font-weight: bolder;
+}
 .f-left {
     float: left;
 }
