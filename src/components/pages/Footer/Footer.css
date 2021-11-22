@@ -6,3 +6,7 @@
 .updated-links{
     color: white;
 }
+
+a:hover{
+    color: #10db02;
+}

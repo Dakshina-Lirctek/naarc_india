@@ -11,10 +11,23 @@ export default class Footer extends Component {
           class="page-footer"
           style={{ background: "black" }}
         >
-          <div style={{paddingTop:"30px"}} class="container text-center text-md-left mt-5">
+          <div style={{paddingTop:"20px"}} class="container text-center text-md-left mt-5">
             <div class="row mt-3">
+            <div style={{paddingBottom:"30px"}} class="container text-center">
+            <div class="row">
+              <div style={{color:"white",fontWeight:"bold"}} class="col-md-4">
+                PLANT !
+              </div>
+              <div style={{color:"white",fontWeight:"bold"}}  class="col-md-4 ">
+                EDUCATE !!
+              </div>
+              <div style={{color:"white",fontWeight:"bold"}}  class="col-md-4 ">
+                SERVE !!!
+              </div>
+              </div>
+              </div>
 
-              <div style={{marginBottom:"8%"}} class="col-md-3">
+              <div style={{marginBottom:"%"}} class="col-md-3">
                 <h6  class="text-uppercase font-weight-bold">Events</h6>
                 <hr
                   class=""
@@ -36,7 +49,7 @@ export default class Footer extends Component {
                 </div>
               </div>
 
-              <div style={{marginBottom:"8%"}} class="col-md-3 ">
+              <div style={{}} class="col-md-3 ">
                 <h6 class="text-uppercase font-weight-bold">Navbar links</h6>
                 <hr
                   class=""
@@ -57,13 +70,13 @@ export default class Footer extends Component {
                 
               </div>
 
-              <div class="col-md-3">
+              <div style={{minHeight:"208px"}} class="col-md-3">
                 <h6 class="text-uppercase font-weight-bold">Contact</h6>
                 <hr
                   class=""
                   style={{ width: "60px" }}
                 />
-                <address style={{color:"white",lineHeight:"29px"}}>
+                <address style={{color:"white",lineHeight:"28px"}}>
                   46A/10, Appan Kadu,<br></br>
                   South Colony, B.Komarapalayam,<br></br>
                   Namakkal - 638 183, TamilNadu. <br></br>
@@ -119,9 +132,9 @@ export default class Footer extends Component {
             class="footer-copyright text-center py-2"
           >
             © 2021 Copyright :
-            <a style={{color:"#10db02",paddingLeft:"4px"}} href="" target="_blank">
+            <a style={{color:"#10db02",paddingLeft:"4px"}} href="https://naarctrustindia.netlify.app/" target="_blank" rel="noreferrer">
               {" "}
-              www.Naarcindia.com
+              www.naarctrustindia.com
             </a>
           </div>
           
